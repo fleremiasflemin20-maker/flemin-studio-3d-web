@@ -54,27 +54,27 @@ Ojos, logos y detalles como **placas de la profundidad que elijas** metidas en e
 <td valign="top">
 
 ### ✂️ Cortes con conectores
-Planos en cualquier ángulo con **espigas** redondas, cuadradas o triangulares, o **clavijas sueltas**, con la holgura de tu impresora. Se colocan solas en el punto más firme del corte.
+El **plano sigue a tu mouse** sobre el modelo y un clic lo fija, o toma la orientación de la cara que tocas. **Espigas** redondas, cuadradas o triangulares, o **clavijas sueltas**, con la holgura de tu impresora, colocadas solas en el punto más firme del corte.
 
 </td>
 <td valign="top">
 
-### ✏️ Corte con boceto
-Dibuja un contorno sobre la vista y lo de dentro sale aparte, atravesando el modelo.
+### ✏️ Separa la forma que quieras
+**Marca una zona** pasando el mouse con el pincel, con un relleno que se detiene en las aristas, o con un **contorno pegado a la superficie**: clics alrededor y la línea sigue la malla. Lo marcado sale como pieza cerrada. También hay corte con boceto sobre la vista.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-### 📐 Para tu cama
-¿No cabe en tu **Creality K2 Plus** o **SPARKX i7**? Lo divide solo. Y reparte todas las piezas **centradas y apoyadas por su mejor cara**.
+### 📐 Ordenadas en tu cama
+Al separar, las piezas se **acomodan solas sobre la cama** de tu **Creality K2 Plus** o **SPARKX i7**: apoyadas por su mejor cara, en filas y centradas. Un clic las muestra montadas. ¿No cabe? Lo divide solo.
 
 </td>
 <td valign="top">
 
 ### 🛠️ Repara lo que otros entregan roto
-Mallas abiertas de Meshy o escaneos, agujeros y aristas compartidas por más de dos caras: se cierran antes de cortar. Las piezas salen sólidas.
+Mallas abiertas de Meshy o escaneos, agujeros y aristas rotas: se cierran antes de cortar. Botones de un clic para **reparar, aligerar mallas pesadas, borrar motas y aislar piezas**, y un control de calidad que comprueba que las piezas suman el volumen exacto del original.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Mallas abiertas de Meshy o escaneos, agujeros y aristas compartidas por más de 
 
 <div align="center">
 
-**Separado por colores, automático**
+**Separado por colores y ordenado en la cama, automático**
 
 <img src="promo/separador.png" alt="El Separador con una placa multicolor separada en tres piezas cerradas" width="100%"/>
 
@@ -117,7 +117,8 @@ Mallas abiertas de Meshy o escaneos, agujeros y aristas compartidas por más de 
 
 - **Manifold** (el núcleo CSG de Blender y OpenSCAD) compilado a WebAssembly, en un worker: la interfaz nunca se congela.
 - Geometría robusta: barridos direccionales por parches para incrustar, isolíneas suavizadas para las fronteras, membranas de superficie mínima para tapar cortes curvos.
-- 56 pruebas automáticas con Manifold real y archivos 3MF multicolor reales.
+- Contorno sobre la superficie con caminos geodésicos (Dijkstra sobre la malla) y control de conservación de volumen en cada separación.
+- 60 pruebas automáticas con Manifold real y archivos 3MF multicolor reales.
 
 ---
 
