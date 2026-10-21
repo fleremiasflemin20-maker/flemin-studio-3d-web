@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://fleremiasflemin20-maker.github.io/flemin-studio-3d-web/">
+<a href="https://flemin-studio-3d.analista-datos-pro.workers.dev/">
   <img src="promo/banner.svg" alt="Flemin Studio 3D — separa tus modelos 3D en piezas para imprimir" width="100%"/>
 </a>
 
@@ -8,8 +8,8 @@
 
 ### Tu modelo 3D, en piezas perfectas para imprimir. En un clic.
 
-<a href="https://fleremiasflemin20-maker.github.io/flemin-studio-3d-web/"><img alt="Abrir Flemin Studio 3D" src="https://img.shields.io/badge/ABRIR_EL_STUDIO-FF6A13?style=for-the-badge&logoColor=0D0A14&labelColor=FF6A13"/></a>
-<a href="https://fleremiasflemin20-maker.github.io/flemin-studio-3d-web/#separador"><img alt="Separador" src="https://img.shields.io/badge/SEPARADOR-FFC23D?style=for-the-badge&labelColor=FFC23D&color=FFC23D"/></a>
+<a href="https://flemin-studio-3d.analista-datos-pro.workers.dev/"><img alt="Abrir Flemin Studio 3D" src="https://img.shields.io/badge/ABRIR_EL_STUDIO-FF6A13?style=for-the-badge&logoColor=0D0A14&labelColor=FF6A13"/></a>
+<a href="https://flemin-studio-3d.analista-datos-pro.workers.dev/#separador"><img alt="Separador" src="https://img.shields.io/badge/SEPARADOR-FFC23D?style=for-the-badge&labelColor=FFC23D&color=FFC23D"/></a>
 <a href="https://fleremiasflemin20-maker.github.io/biblioteca-3d/"><img alt="Biblioteca 3D" src="https://img.shields.io/badge/BIBLIOTECA_3D-8A3CFF?style=for-the-badge"/></a>
 
 <img alt="3MF multicolor" src="https://img.shields.io/badge/3MF-multicolor-2FA8FF?style=flat-square"/>
@@ -107,7 +107,7 @@ Mallas abiertas de Meshy o escaneos, agujeros y aristas compartidas por más de 
 
 ## ✦ Úsalo
 
-1. Abre **[Flemin Studio 3D](https://fleremiasflemin20-maker.github.io/flemin-studio-3d-web/)**.
+1. Abre **[Flemin Studio 3D](https://flemin-studio-3d.analista-datos-pro.workers.dev/)**.
 2. Arrastra tu **3MF, STL, GLB u OBJ**. Si trae colores, se separa solo.
 3. Corta, divide para tu cama u ordénalo, y descarga el **3MF multicolor**, el **3MF en la cama** o **un STL por pieza**.
 
