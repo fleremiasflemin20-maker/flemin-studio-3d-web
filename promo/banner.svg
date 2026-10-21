@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-label="Flemin Studio 3D: separa tus modelos 3D en piezas para imprimir">
+  <style>
+    .t { font-family: 'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 900; }
+    .s { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .m { font-family: 'SFMono-Regular', Menlo, Consolas, monospace; }
+    @keyframes aurora1 { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(60px,30px) scale(1.15); } }
+    @keyframes aurora2 { 0%,100% { transform: translate(0,0) scale(1.1); } 50% { transform: translate(-70px,-20px) scale(.95); } }
+    @keyframes arriba { 0%,15% { transform: translateY(0); } 35%,70% { transform: translateY(-34px); } 90%,100% { transform: translateY(0); } }
+    @keyframes abajo { 0%,15% { transform: translateY(0); } 35%,70% { transform: translateY(34px); } 90%,100% { transform: translateY(0); } }
+    @keyframes corte { 0%,20% { opacity: 0; } 30%,65% { opacity: 1; } 80%,100% { opacity: 0; } }
+    @keyframes brillo { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+    .a1 { animation: aurora1 9s ease-in-out infinite; transform-origin: center; }
+    .a2 { animation: aurora2 11s ease-in-out infinite; transform-origin: center; }
+    .arriba { animation: arriba 5s cubic-bezier(.65,0,.35,1) infinite; }
+    .abajo { animation: abajo 5s cubic-bezier(.65,0,.35,1) infinite; }
+    .corte { animation: corte 5s ease-in-out infinite; }
+    .brillo { animation: brillo 3s ease-in-out infinite; }
+  </style>
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#140E1F"/><stop offset="1" stop-color="#0D0A14"/>
+    </linearGradient>
+    <radialGradient id="naranja"><stop offset="0" stop-color="#FF6A13" stop-opacity=".55"/><stop offset="1" stop-color="#FF6A13" stop-opacity="0"/></radialGradient>
+    <radialGradient id="purpura"><stop offset="0" stop-color="#8A3CFF" stop-opacity=".55"/><stop offset="1" stop-color="#8A3CFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="titulo" x1="0" x2="1">
+      <stop offset="0" stop-color="#FF6A13"/><stop offset=".5" stop-color="#FFC23D"/><stop offset="1" stop-color="#2FA8FF"/>
+    </linearGradient>
+    <pattern id="rejilla" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity=".05"/>
+    </pattern>
+    <clipPath id="marco"><rect width="1280" height="440" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#marco)">
+    <rect width="1280" height="440" fill="url(#fondo)"/>
+    <rect width="1280" height="440" fill="url(#rejilla)"/>
+    <circle class="a1" cx="260" cy="80" r="320" fill="url(#naranja)"/>
+    <circle class="a2" cx="1080" cy="380" r="340" fill="url(#purpura)"/>
+
+    <g class="e1">
+      <text x="72" y="112" class="m" font-size="16" letter-spacing="5" fill="#FFC23D">MOTOR DE SEPARACIÓN PARA IMPRESIÓN 3D</text>
+    </g>
+    <g class="e2">
+      <text x="68" y="196" class="t" font-size="76" fill="#FFFFFF">FLEMIN</text>
+      <text x="68" y="276" class="t" font-size="76" fill="url(#titulo)">STUDIO 3D</text>
+    </g>
+    <g class="e3">
+      <text x="72" y="326" class="s" font-size="22" fill="#FFFFFF" fill-opacity=".72">Por colores · Cortes con conectores · Para tu cama</text>
+      <g transform="translate(72 352)">
+        <rect width="190" height="40" rx="20" fill="#FF6A13"/>
+        <text x="95" y="26" text-anchor="middle" class="s" font-size="16" font-weight="700" fill="#0D0A14">3MF multicolor</text>
+        <rect x="204" width="210" height="40" rx="20" fill="#FFFFFF" fill-opacity=".08" stroke="#FFFFFF" stroke-opacity=".18"/>
+        <text x="309" y="26" text-anchor="middle" class="s" font-size="16" fill="#FFFFFF">100 % en el navegador</text>
+        <rect x="428" width="190" height="40" rx="20" fill="#FFFFFF" fill-opacity=".08" stroke="#FFFFFF" stroke-opacity=".18"/>
+        <text x="523" y="26" text-anchor="middle" class="s" font-size="16" fill="#FFFFFF">Piezas cerradas</text>
+      </g>
+    </g>
+
+    <!-- Cubo multicolor que se separa en dos piezas por un corte. -->
+    <g transform="translate(985 225)">
+      <g class="brillo"><circle r="150" fill="#FF6A13" fill-opacity=".12"/></g>
+      <g class="arriba">
+        <g transform="translate(0 -30) scale(1 .55)">
+          <path d="M0 -70 L80 -32 L0 6 L-80 -32 Z" fill="#FF6A13"/>
+          <path d="M-80 -32 L0 6 L0 70 L-80 32 Z" fill="#8A3CFF"/>
+          <path d="M80 -32 L0 6 L0 70 L80 32 Z" fill="#2FA8FF"/>
+        </g>
+        <circle cx="-28" cy="-6" r="7" fill="#FFC23D"/>
+        <circle cx="28" cy="-6" r="7" fill="#FFC23D"/>
+      </g>
+      <g class="abajo">
+        <g transform="translate(0 34) scale(1 .55)">
+          <path d="M0 -70 L80 -32 L0 6 L-80 -32 Z" fill="#1FBF8F"/>
+          <path d="M-80 -32 L0 6 L0 70 L-80 32 Z" fill="#8A3CFF" opacity=".85"/>
+          <path d="M80 -32 L0 6 L0 70 L80 32 Z" fill="#2FA8FF" opacity=".85"/>
+        </g>
+      </g>
+      <g class="corte">
+        <line x1="-170" y1="4" x2="170" y2="4" stroke="#FFC23D" stroke-width="2.5" stroke-dasharray="8 7"/>
+        <text x="170" y="-8" text-anchor="end" class="m" font-size="14" fill="#FFC23D">corte · espigas · 0,2 mm</text>
+      </g>
+    </g>
+  </g>
+</svg>

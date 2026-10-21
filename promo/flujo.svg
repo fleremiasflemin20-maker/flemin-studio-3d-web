@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220" role="img" aria-label="Flujo: abre tu modelo, se separa por colores o cortes, y descargas el 3MF listo para imprimir">
+  <style>
+    .s { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .t { font-family: 'Arial Black', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 900; }
+    @keyframes viaje { 0% { offset-distance: 0%; opacity: 0; } 8% { opacity: 1; } 92% { opacity: 1; } 100% { offset-distance: 100%; opacity: 0; } }
+    @keyframes late { 0%,100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+    .chispa { offset-path: path('M250 110 H1030'); animation: viaje 4s cubic-bezier(.65,0,.35,1) infinite; }
+    .chispa2 { offset-path: path('M250 110 H1030'); animation: viaje 4s 2s cubic-bezier(.65,0,.35,1) infinite; }
+    .p1 { animation: late 4s 0s ease-in-out infinite; transform-origin: 160px 110px; }
+    .p2 { animation: late 4s 1.3s ease-in-out infinite; transform-origin: 640px 110px; }
+    .p3 { animation: late 4s 2.6s ease-in-out infinite; transform-origin: 1120px 110px; }
+  </style>
+  <rect width="1280" height="220" rx="24" fill="#0D0A14"/>
+  <path d="M250 110 H1030" stroke="#FFFFFF" stroke-opacity=".15" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+  <g class="p1">
+    <rect x="70" y="50" width="180" height="120" rx="22" fill="#1A1424" stroke="#FF6A13" stroke-opacity=".6"/>
+    <text x="160" y="100" text-anchor="middle" class="t" font-size="26" fill="#FF6A13">1 · ABRE</text>
+    <text x="160" y="132" text-anchor="middle" class="s" font-size="15" fill="#FFFFFF" fill-opacity=".7">3MF · STL · GLB · OBJ</text>
+  </g>
+  <g class="p2">
+    <rect x="530" y="50" width="220" height="120" rx="22" fill="#1A1424" stroke="#FFC23D" stroke-opacity=".6"/>
+    <text x="640" y="100" text-anchor="middle" class="t" font-size="26" fill="#FFC23D">2 · SEPARA</text>
+    <text x="640" y="132" text-anchor="middle" class="s" font-size="15" fill="#FFFFFF" fill-opacity=".7">colores · cortes · cama</text>
+  </g>
+  <g class="p3">
+    <rect x="1030" y="50" width="180" height="120" rx="22" fill="#1A1424" stroke="#2FA8FF" stroke-opacity=".6"/>
+    <text x="1120" y="100" text-anchor="middle" class="t" font-size="26" fill="#2FA8FF">3 · IMPRIME</text>
+    <text x="1120" y="132" text-anchor="middle" class="s" font-size="15" fill="#FFFFFF" fill-opacity=".7">3MF multicolor</text>
+  </g>
+  <circle r="9" fill="#FF6A13" class="chispa"/>
+  <circle r="6" fill="#2FA8FF" class="chispa2"/>
+</svg>
