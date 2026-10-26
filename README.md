@@ -10,6 +10,7 @@
 
 <a href="https://flemin-studio-3d.analista-datos-pro.workers.dev/"><img alt="Abrir Flemin Studio 3D" src="https://img.shields.io/badge/ABRIR_EL_STUDIO-FF6A13?style=for-the-badge&logoColor=0D0A14&labelColor=FF6A13"/></a>
 <a href="https://flemin-studio-3d.analista-datos-pro.workers.dev/#separador"><img alt="Separador" src="https://img.shields.io/badge/SEPARADOR-FFC23D?style=for-the-badge&labelColor=FFC23D&color=FFC23D"/></a>
+<a href="https://flemin-studio-3d.analista-datos-pro.workers.dev/#codigo"><img alt="Flemin Code" src="https://img.shields.io/badge/FLEMIN_CODE-1FBF8F?style=for-the-badge"/></a>
 <a href="https://fleremiasflemin20-maker.github.io/biblioteca-3d/"><img alt="Biblioteca 3D" src="https://img.shields.io/badge/BIBLIOTECA_3D-8A3CFF?style=for-the-badge"/></a>
 
 <img alt="3MF multicolor" src="https://img.shields.io/badge/3MF-multicolor-2FA8FF?style=flat-square"/>
@@ -31,6 +32,14 @@ Sin instalar nada. Sin cuentas. **Tus archivos nunca salen de tu computadora.**
 
 <div align="center">
   <img src="promo/flujo.svg" alt="Abre, separa, imprime" width="100%"/>
+</div>
+
+## ✦ Nuevo: Flemin Code
+
+**Diseña piezas con código, o pídeselas a la IA.** Python (con la biblioteca `flemin`) u OpenSCAD, en el navegador y sin instalar nada. Describe la pieza en español y la IA escribe el código, lo ejecuta y lo corrige sola; cada medida sale como un control para ajustarla al instante. Una tabla de Excel genera lotes (50 nombres, 50 llaveros) y todo sale en **3MF multicolor**, STL o directo al Editor y al Separador.
+
+<div align="center">
+  <a href="https://flemin-studio-3d.analista-datos-pro.workers.dev/#codigo"><img src="promo/codigo.jpg" alt="Flemin Code: una maceta espiral en Python con sus controles" width="100%"/></a>
 </div>
 
 ## ✦ Lo que hace
