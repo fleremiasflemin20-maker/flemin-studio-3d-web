@@ -34,6 +34,14 @@ Sin instalar nada. Sin cuentas. **Tus archivos nunca salen de tu computadora.**
   <img src="promo/flujo.svg" alt="Abre, separa, imprime" width="100%"/>
 </div>
 
+## ✦ Nuevo: Flemin CAD
+
+**CAD paramétrico como en Fusion 360, en el navegador.** Bocetos con restricciones, extrusiones, revoluciones, redondeos, chaflanes, vaciados y patrones sobre OpenCascade (el motor de FreeCAD), con un historial donde cambias cualquier medida y todo se rehace. Importa **STEP** y **DXF de AutoCAD**; exporta STEP, STL y 3MF.
+
+<div align="center">
+  <a href="https://flemin-studio-3d.analista-datos-pro.workers.dev/#cad"><img src="promo/cad.jpg" alt="Flemin CAD: caja vaciada con redondeos y su historial" width="100%"/></a>
+</div>
+
 ## ✦ Nuevo: Flemin Code
 
 **Diseña piezas con código, o pídeselas a la IA.** Python (con la biblioteca `flemin`) u OpenSCAD, en el navegador y sin instalar nada. Describe la pieza en español y la IA escribe el código, lo ejecuta y lo corrige sola; cada medida sale como un control para ajustarla al instante. Una tabla de Excel genera lotes (50 nombres, 50 llaveros) y todo sale en **3MF multicolor**, STL o directo al Editor y al Separador.
